@@ -335,3 +335,8 @@ body {
   align-self: center;
   margin-top: 15px;
 }
+
+.button:nth-shild(1) {
+  background: #322454;
+  
+}
