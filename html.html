@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta content="author" name="Alex Li">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	
+	<title>Record GUM</title>
+</head>
+<body>
+		
+	
+	<header class="header_possition"> 
+		<div class="calcel">
+			<a href="tel:+7495680214"><div class="call_img"></div></a>
+			<div>680-214</div>
+			<div class="icon_header" id="targetDiv"></div>
+		</div>
+		<div class="fitnes_name"><p>Фитнес клуб</p></div>
+		<div class="logo_header"></div>
+
+		<div class="calendar_header"><button class="calendar_img"><p>Расписание</p></button></div>
+		<div class="container" onclick="burgerMenu(this)">
+    <div class="b1"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+		</div>
+
+		
+
+	</header>
+	<nav class="menu_burger possition">
+			<ul>
+				<li><a href="#">Бесплатная тренеровка</a></li>
+				<li><a href="#form_reg" class="form_click"> Подобрать абонемент</a></li>
+				<li><a href="#"> Акции</a></li>
+				<li><a href="#"> Наши услуши</a></li>
+				<li><a href="#"> Наши преимушества</a></li>
+				<li><a href="#"> Контакты</a></li>
+			</ul>
+			<div class="columns"><div><p>пн - пт</p> <p>07:00 - 22:00</p></div>
+			<div><p>сб - вс</p> <p>09:00 - 20:00</p></div></div>
+		</nav>
+
+		<form class="form_action" id="form_reg">
+			<label> Ваше имя <input type="text" name="Name" required placeholder="Иван"></label>
+			<label>Ваше фомилие <input type="text" name="famil" placeholder="Иванов" required></label>
+			<label>Введите свой email<input type="email" name="email" placeholder="Ваш email" required></label>
+			<label>Введите ваш номер телефона<input type="tel" name="telephone" pattern="8[0-9]{3} - [0-9]{3} - [0-9]{2} - [0-9]{2}"></label>
+
+			<input type="submit" value="Записаться" class="submit_form">
+			
+		</form>
+
+	<article class="main_center">
+		
+		<div><h1>Не трать время на раздумья  — <br>
+начни заниматься прямо сейчас!</h1></div>
+		<div><p>Запишись на первую бесплатную тренировку!</p></div>
+		<div class="button">
+			<button>Бесплатная тренеровка</button>
+			<button>Подобрать абонемент</button>
+		</div>			
+	</article>
+
+
+
+	<script src="menu_burger.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	
+</body>
+</html>

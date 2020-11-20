@@ -1,0 +1,167 @@
+@media (min-width: 1440px) {
+	.menu_burger {
+		display: none;
+	}
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 1440px) {
+	body {
+		background: url(img_768/bigstock-Santas-training-73365286.png) no-repeat scroll;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.56);
+		background-blend-mode: multiply;
+	}
+
+	.menu_burger {
+		/* display: none; */
+	}
+
+	.main_center :nth-child(1) h1 {
+		font-size: 50px;
+		
+		height: 245px;
+		width: 591px;
+	}
+
+	.calendar_header {
+		display: none;
+	}
+
+	.container {
+		display: inline-block;
+	}
+
+	.main_center :nth-child(3) :nth-child(2) {
+  	margin-left: 0px;
+  }
+
+	.main_center {
+		
+		width: 400px;
+		justify-content: flex-start;
+		margin: auto;
+		margin-top: 106px;
+
+		
+	}
+
+	 .button{
+	 	margin-top: 237px;
+	 }
+
+	.main_center > :nth-child(2) p {
+		display: none;
+	}
+
+	
+      button   {
+		margin-top: 15px;
+		margin-left: 0px;
+	}
+	
+	.icon_header {
+		display: none;
+	}
+
+	.columns div {
+	display: flex;
+	justify-content: center;
+}
+	
+}
+
+@media  (max-width: 768px) {
+
+	  	.menu_burger {
+	  			/*display: none; */
+	  	}
+
+
+	.logo_header{
+		width: 105px;
+		height: 22px;
+		background-size: cover;
+	}
+
+.calendar_header {
+		display: none;
+	}
+  .container {
+  	display: inline-block;
+  }
+
+	body {
+		background: url(img/santa_366.png) no-repeat scroll;
+		  background-size: cover;
+      background-color: rgba(0, 0, 0, 0.56);
+		background-blend-mode: multiply;
+
+	}
+	.calcel > :nth-child(2) {
+		display: none;
+	}
+	.icon_header {
+		display: none;
+	
+	}
+
+	.main_center > :nth-child(2) p {
+		display: none;
+	}
+
+   
+
+  
+
+	.main_center {
+		
+		width: 268px;
+		justify-content: flex-start;
+		margin: auto;
+		margin-top: 106px;
+
+		
+	}
+	.main_center :nth-child(1) h1 {
+		font-size: calc(18px + 18 * ((100vw - 320px) / (768 - 320)));
+		
+		height: calc(245px + 100 * ((100vw - 320px) / (768 - 320)));
+		width: calc(268px + 200 * ((100vw - 320px) / (768 - 320)));
+	}
+
+
+  .main_center :nth-child(3) :nth-child(2) {
+  	margin-left: 0px;
+  }
+
+  .menu_burger > div {
+
+   flex-direction: column;
+  height: 55px;
+  background: black;
+
+
+
+}
+
+.columns div {
+	display: flex;
+	justify-content: center;
+}
+
+.menu_burger p {
+   
+  font-size: 14px;
+  line-height: 16px;
+  
+}
+.menu_burger li a {
+	font-size: 13px;
+	line-height: 15px;
+}
+
+}
+
+
